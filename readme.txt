@@ -15,7 +15,7 @@ R G B Y O are the colors supported currently
 '*' denotes empty space
 
 ex. Suppose I want to know if starting with 3 red, 3 green, 3 blue tokens if it's possible to fill the grid.
-scenario.main((3, 3, 3)) gives the following result:
+scenario.main((3, 3, 3)) gives the following result (as columns)
 (('B', 'G', 'R'), ('R', 'B', 'G'))
 (('R', 'G'), ('G', 'R'), ('B', '*'))
 (('B', 'R'), ('R', 'B'), ('*', 'G'))
